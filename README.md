@@ -1,6 +1,6 @@
-# Adonisjs link backoffice backend
+# Adonisjs example backend
 
-This is an [`Adonisjs v6`](https://docs.adonisjs.com/guides/preface/introduction) project to manage Link backoffice backend.
+This is an [`Adonisjs v6`](https://docs.adonisjs.com/guides/preface/introduction) project to manage backend.
 
 ## Dependencies
 
