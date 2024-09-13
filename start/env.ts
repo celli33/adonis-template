@@ -29,19 +29,4 @@ export default await Env.create(new URL('../', import.meta.url), {
   DB_USER: Env.schema.string(),
   DB_PASSWORD: Env.schema.string.optional(),
   DB_DATABASE: Env.schema.string(),
-
-  /*
-  |----------------------------------------------------------
-  | Variables for link service
-  |----------------------------------------------------------
-  */
-  LINK_URL: Env.schema.string(),
-  LINK_CONTROL_API_TOKEN: Env.schema.string(),
-  /*
-  |----------------------------------------------------------
-  | Variables for whompi service
-  |----------------------------------------------------------
-  */
-  WOMPI_URL: Env.schema.string(),
-  WOMPI_CONTROL_API_TOKEN: Env.schema.string(),
 });
